@@ -1,0 +1,46 @@
+.div-Tweet{
+    display: flex;
+    flex-direction: column;
+    background-color: #040E1D;
+    width: 600px;
+    color:aliceblue;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding : 10px;
+
+}
+.Top-Tweet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    height : 30px;
+    font-size: 13px;
+}
+#img-Tweeter{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.main-Tweet{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 12px;
+    background-color:#EF6D49;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.result-Tweet{
+    height : 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    font-size: 8px;
+}
