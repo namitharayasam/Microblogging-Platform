@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {useCookies} from 'react-cookie';
 import makeUnathenticatedPostRequest from '../utils/serverHelper.js'
-import './home.css';
+import './home.css'
 import TweetComponent from '../components/tweetComponent.js';
 
 export function Home() {
@@ -42,11 +42,6 @@ export function Home() {
     fetchName();
   },[tweets])
   
-
-  const addTweet = async () => {
-    const response = await makeUnathenticatedPostRequest('
-  }
-
   return (
     <div className="homepage">
       <div className="left-sidebar">
@@ -68,11 +63,6 @@ export function Home() {
               />)
         })}
       </div>
-      <div className="help-link">
-          <button onClick={() => {
-            addtweet();
-          }}>Add Tweet</button>
-        </div>
     </div>
   );
 }

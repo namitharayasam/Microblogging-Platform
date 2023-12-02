@@ -21,9 +21,9 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 400px; /* Adjust the width to your preference */
-    height: max-content; /* Adjust the height to your preference */
-    margin: auto; /* Center the box horizontally */
+    width: 400px; 
+    height: max-content; 
+    margin: auto; 
   }
   
   form {
